@@ -1,0 +1,71 @@
+@media screen and (min-width:651px) and (max-width: 900px)
+{
+
+main {
+    width : 80%;
+}
+
+nav>ul>li:hover>ul{
+    width: calc(16% - 1px);
+}
+
+.article {
+    width : 45%;
+    margin-right : 9%;
+}
+
+#a2 {
+    margin-right : 0%;
+}
+
+#actu :last-child {
+    display : block;
+    width : 100%;
+}
+
+}
+
+@media screen and (max-width: 650px)
+{
+
+header {
+    display : none;
+}
+main {
+    width : 90%;
+}
+
+#recherche {
+    display : none;
+}
+
+#headmain {
+    width : 100%;
+}
+
+h1 {
+    text-align : center;
+}
+
+main>nav>ul>li:hover>ul{
+    width : 90%;
+    position : absolute;
+    top : 140px; left : 5%;
+}
+
+#pres {
+    width : 100%;
+}
+
+#prese {
+    float : none;
+    display : center;
+}
+    
+.article {
+    width : 100%;
+    margin : 0%;
+    margin-bottom : 10px;
+}
+
+}
