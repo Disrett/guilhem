@@ -24,13 +24,13 @@
 					<li><a href="./index.html">présentation</a>
 						
 					</li>
-					<li><a href="./page2.html">mes passions</a>
+					<li><a href="./html/page2.html">mes passions</a>
 						
  				 	</li>
-					<li><a href="./page3.html">projet professionnel</a>
+					<li><a href="./html/page3.html">projet professionnel</a>
 						
 					</li>
-					<li><a href="./page4.html">les sources</a>
+					<li><a href="./html/page4.html">les sources</a>
 					
 					</li>
 					<li><a href="https://linkedin.com/in/guilhem-vincent-757529223">profil Linkedin</a>
