@@ -1,37 +1,118 @@
-## Welcome to GitHub Pages
+<!doctype html>
+<html lang="fr">
 
-You can use the [editor on GitHub](https://github.com/Disrett/guilhem/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+    <head>
+        <meta charset="utf-8">
+        <title>Page d'exemple</title>
+        <link rel="stylesheet" href="../css/style.css">
+		<link rel="stylesheet" href="../css/style-mobile.css">
+	</head>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+	<body>
+		
+		<header>
+			<!--<a id="AutreS" href="./page2.html">Visitez notre autre site</a>-->
+			Guilhem Vincent R&T1 groupe C
+			<!--<ul id="l1"><li>Item 1</li><li>Item 2</li><li>Item 3</li></ul>-->
+		</header>
 
-### Markdown
+		<main>
+			<div id=headmain>
+				<!--<input id="recherche" type="text" placeholder="Recherche" size="20">-->
+				<h1>Guilhem VINCENT</h1>
+			</div>
+            <nav>
+                <ul>
+					<li><a href="./index.html">présentation</a>
+						
+					</li>
+					<li><a href="./page2.html">mes passions</a>
+						
+ 				 	</li>
+					<li><a href="./page3.html">projet professionnel</a>
+						
+					</li>
+					<li><a href="./page4.html">les sources</a>
+					
+					</li>
+					<li><a href="https://linkedin.com/in/guilhem-vincent-757529223">profil Linkedin</a>
+					</li>
+ 				
+				</ul>
+			</nav>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+			<div id="pres">
+				<h2>Présentation</h2>
+				<img id="prese" src="./img/presentation.jpg" alt="img présentation">
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur aliquam dolor eget dui sollicitudin congue. Quisque interdum consectetur lectus, eget fermentum ipsum varius sit amet. Fusce varius, 
+					magna et porta tristique, tellus metus volutpat lacus, quis mattis diam mi ac lectus. Suspendisse rhoncus quis metus et egestas. Phasellus venenatis urna odio, quis semper arcu sollicitudin et.
+					Maecenas in imperdiet metus, in dignissim velit. Nam sit amet lorem in metus vehicula mollis. Nulla nec finibus massa. Morbi aliquam ante non tellus malesuada luctus. Pellentesque risus ante,
+					consequat id ex nec, interdum tincidunt augue.
+					<br>
+					<br>
+					Aenean finibus neque et tempor aliquam. Ut orci orci, semper dapibus malesuada at, suscipit nec lorem. Sed molestie rutrum urna venenatis rhoncus. Aliquam in eros tortor. Mauris placerat metus ligula,
+					vel posuere nulla iaculis vitae. Curabitur tristique tempor porttitor. Morbi sodales ex sapien, in lobortis augue varius tristique. Vestibulum sit amet pretium mi. Quisque scelerisque tempor felis,
+					at convallis elit dignissim et.
+					<br>
+					<br>
+					Cras eu arcu rutrum, egestas nunc non, accumsan ligula. Etiam arcu elit, blandit vel pretium nec, interdum id mauris. Maecenas dapibus, nunc eu sagittis malesuada, ligula erat luctus sapien,
+					quis faucibus dui urna ac libero. Sed nulla ante, consectetur non odio nec, sodales tincidunt risus. Aenean tortor augue, lobortis quis lobortis in, bibendum dapibus magna. Proin lacinia lacinia felis sed
+					placerat. In ultricies neque sem, tristique vehicula leo dapibus vel. In tempus, metus ut faucibus mattis, dolor nunc venenatis risus, cursus luctus metus diam a augue. Suspendisse vehicula varius tortor nec
+					suscipit. Etiam urna tellus, elementum nec maximus et, volutpat ut ipsum. Aenean dignissim, tortor eget imperdiet mollis, lectus nibh mollis sapien, eget consequat est est a neque. Proin a pharetra diam.
+					Quisque non hendrerit elit. Nulla pretium pharetra orci et volutpat. In rutrum mollis est, sit amet aliquet ante pulvinar a.
+					<br>
+					<br>
+					Ut porttitor turpis ac purus dictum gravida. Praesent convallis cursus dolor ac porta. Morbi sodales purus arcu, quis placerat turpis sollicitudin sed. In non sem pretium, consequat leo sed, gravida velit.
+					Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Ut erat nulla, viverra non lorem nec, commodo scelerisque tortor. Vestibulum ante ipsum primis in faucibus orci
+					luctus et ultrices posuere cubilia curae; Integer vitae velit enim. Fusce efficitur, dolor nec vehicula suscipit, risus dolor sollicitudin nibh, a accumsan felis ligula id dolor. Duis dictum bibendum urna,
+					ut aliquam turpis malesuada sit amet. Aliquam erat volutpat. Donec augue quam, tincidunt sit amet ligula a, ullamcorper ullamcorper tellus.
+				</p>
+			</div>
+            
+            <div>
+				
+			</div>
+			<div id="imgimg">
+				<img class="planete" src="./img/splash.jpg" alt="img gauche">
+				<img class="planete" src="./img/splash.jpg" alt="img droite">
+			</div>
+			<div id="actu">
+				<h2>Actualité</h2>
+				<div class="article">
+					<p>Titre</p>
+					<p>Lorem Ipsum Aenean finibus neque et tempor aliquam. Ut orci orci, semper dapibus malesuada at, suscipit nec lorem. Sed molestie rutrum urna venenatis rhoncus. Aliquam in eros tortor. Mauris placerat metus ligula,
+						vel posuere nulla iaculis vitae.
+					</p>
+					<a class="plus" href="https://example.com">En savoir plus</a>
+				</div>
+				<div class="article" id="a2">
+					<p>Titre</p>
+					<p>Lorem Ipsum Aenean finibus neque et tempor aliquam. Ut orci orci, semper dapibus malesuada at, suscipit nec lorem. Sed molestie rutrum urna venenatis rhoncus. Aliquam in eros tortor. Mauris placerat metus ligula,
+						vel posuere nulla iaculis vitae.
+					</p>
+					<a class="plus" href="https://example.com">En savoir plus</a>
+				</div>
+				<div class="article">
+					<p>Titre</p>
+					<p>Lorem Ipsum Aenean finibus neque et tempor aliquam. Ut orci orci, semper dapibus malesuada at, suscipit nec lorem. Sed molestie rutrum urna venenatis rhoncus. Aliquam in eros tortor. Mauris placerat metus ligula,
+						vel posuere nulla iaculis vitae.
+					</p>
+					<a class="plus" href="https://example.com">En savoir plus</a>
+				</div>
+			</div>
 
-```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
 
-- Bulleted
-- List
+		</main>
 
-1. Numbered
-2. List
+		<div id="footer">
+			<ul id="listfooter"><li>Item 1</li><li>Item 2</li><li>Item 3</li><li>Item 4</li></ul>
+		</div>
 
-**Bold** and _Italic_ and `Code` text
 
-[Link](url) and ![Image](src)
-```
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
 
-### Jekyll Themes
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Disrett/guilhem/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+	</body>
 
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+</html>
