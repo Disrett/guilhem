@@ -4,8 +4,8 @@
     <head>
         <meta charset="utf-8">
         <title>Page d'exemple</title>
-        <link rel="stylesheet" href="../css/style.css">
-		<link rel="stylesheet" href="../css/style-mobile.css">
+        <link rel="stylesheet" href="./css/style.css">
+		<link rel="stylesheet" href="./css/style-mobile.css">
 	</head>
 
 	<body>
