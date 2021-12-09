@@ -101,7 +101,7 @@ nav{
 
 nav>ul>li{
 	display: inline-block;
-	width: calc(10% - 1px);
+	width: calc(20% - 1px);
 	height: 40px;
 	line-height: 40px;
 }
